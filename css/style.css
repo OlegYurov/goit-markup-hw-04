@@ -242,6 +242,9 @@ img {
 /* ======= HERO END ======== */
 /* ======= FEATURES ======= */
 .features-wrapper-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 25px 100px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
@@ -602,9 +605,11 @@ img {
   margin-left: 30px;
   margin-top: 30px;
 }
+.item-portfolio-link {
+  display: inline-block;
+}
 
-.item-portfolio:hover,
-.item-portfolio:focus {
+.item-portfolio-link:hover {
   border: 1px;
   border-color: #eeeeee;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
